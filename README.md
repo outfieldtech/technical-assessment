@@ -25,12 +25,13 @@ git clone https://github.com/outfieldtech/technical-assessment.git
 
 # Navigate to the project directory
 cd technical-assessment
+```
 
 ### Setting Up a Virtual Environment (Optional but Recommended)
 
 It's recommended to use a virtual environment to keep dependencies required by the project separate from your global Python environment.
 
-
+```bash
 # Creating a virtual environment
 python -m venv venv
 
