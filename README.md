@@ -39,17 +39,18 @@ python -m venv venv
 venv\Scripts\activate
 # On MacOS/Linux
 source venv/bin/activate
+```
 
+# Installing Dependencies
 
-Installing Dependencies
 Install the required packages using pip:
-
+```bash
 pip install -r requirements.txt
+```
 
-
-Running the Project
+# Running the Project
 Once the setup is complete, you can run the Django development server:
-
+```bash
 python manage.py runserver
 ```
 
