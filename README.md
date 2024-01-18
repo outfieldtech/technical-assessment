@@ -1,6 +1,41 @@
-# Outfield Blog Project
+# Outfield Blog Project - Backend and Frontend
 
-## Project Overview
+
+## Outfield Blog Frontend Setup
+
+This project is part of the technical assessment for the Outfield blog application. Candidates are expected to have a basic React application setup ready.
+
+### Setup Instructions
+
+1. **React Application:**
+   - If you do not have an existing React application, you can create a new one using Create React App by running:
+     ```bash
+     npx create-react-app outfield-blog-frontend
+     ```
+   - Navigate to your project directory:
+     ```bash
+     cd outfield-blog-frontend
+     ```
+
+2. **Install React Router:**
+   - Install React Router as the assessment might require routing for navigating between different views:
+     ```bash
+     npm install react-router-dom
+
+### Running the Application
+
+- You can start the React development server by running:
+  ```bash
+  npm start
+  ```
+  
+The application should be accessible at http://localhost:3000/ in your browser.
+
+### Additional Information
+* Ensure your development environment is set up before the assessment to avoid delays.
+* You're free to structure your application as you see fit and to use additional libraries if you deem them necessary.
+
+## Outfield Blog Backend Setup
 
 This repository contains the initial setup for a blog project for Outfield. The project is built using Django and includes a basic `blog` app with a `Post` model. This setup serves as a starting point for a live coding exercise where additional functionalities will be built on top of this model.
 
